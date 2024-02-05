@@ -1,0 +1,189 @@
+/*basic page style ---------------------------------------------------------------------------------------------*/
+*{
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f2ffed;
+}
+
+/*nav bar ----------------------------------------------------------------------------------------------------*/
+header{
+    background-color: lavender;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 20px;;
+    position: relative;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: navy;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    background-color: navy;
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+/*home page ----------------------------------------------------------------------------------------------------*/
+.indexp{
+    text-align: center;
+    font-size: 18px;
+}
+
+#headshot{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 40vh;
+    margin-left: 5%;
+    position: absolute;
+    transform: translate(0, -50%);
+    border: 3px solid #54883d;
+}
+
+.text-bubble {
+    background-color: mintcream;
+    border: 2px solid #54883d;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+}
+
+/*about me page ----------------------------------------------------------------------------------------------------*/
+#aboutMeHeader{
+    text-align: center;
+}
+.aboutp{
+    font-size: 15px;
+}
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px;
+}
+
+.container{
+    padding: 10px 40px;
+    position: relative;
+    width: 50%;
+    background: #bdeeed;
+    border-radius: 15px;
+}
+
+.text-box{
+    padding: 20px 30px;
+    background: mintcream;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.left-container{
+    left: 0;
+}
+
+.right-container{
+    left: 50%;
+}
+
+.container img{
+    position: absolute;
+    width: 70px;
+    border-radius: 50%;
+    right: -20px;
+    top: 100px;
+    z-index: 10;
+}
+
+.container img:hover{
+    position: absolute;
+    width: 200px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 20;
+}
+
+.left-container img:hover{
+    right: -100px;
+}
+
+.right-container img:hover {
+    left: -100px;
+}
+
+.right-container img{
+    left: -20px;
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background: #54883d;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 9;
+}
+
+/*contact page ----------------------------------------------------------------------------------------------------*/
+b{
+    text-align: center;
+    font-size: 25px;
+    display: block;
+}
+
+#prettySquare {
+    width: 500px;
+    height: 500px;
+    background-color: #bdeeed;
+    border-radius: 40px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid #54883d;
+}
+
+#small{
+    font-size: 15px;
+}
