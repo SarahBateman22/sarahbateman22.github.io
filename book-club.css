@@ -1,0 +1,1033 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-navlink {
+  text-decoration: none;
+}
+.navigation-links-navlink1 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-navlink2 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-navlink3 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-navlink4 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-navlink {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.book-club-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.book-club-header {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+}
+.book-club-component {
+  text-decoration: none;
+}
+.book-club-burger-menu {
+  display: none;
+}
+.book-club-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: none;
+}
+.book-club-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.book-club-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.book-club-container01 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.book-club-image {
+  height: 2rem;
+}
+.book-club-close-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.book-club-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.book-club-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.book-club-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.book-club-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.book-club-container02 {
+  width: 100%;
+  height: 5930px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.book-club-text {
+  color: var(--dl-color-gray-black);
+  font-size: 30px;
+}
+.book-club-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: center;
+}
+.book-club-image01 {
+  width: 200px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-text001 {
+  font-size: 20px;
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-link {
+  text-decoration: underline;
+}
+.book-club-text004 {
+  font-size: 25px;
+}
+.book-club-container04 {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.book-club-text005 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-container05 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.book-club-image02 {
+  width: var(--dl-size-size-large);
+  align-self: center;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.book-club-container06 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.book-club-container07 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.book-club-text007 {
+  font-size: 18px;
+}
+.book-club-text008 {
+  font-size: 18px;
+}
+.book-club-text009 {
+  font-size: 18px;
+}
+.book-club-text010 {
+  font-size: 18px;
+}
+.book-club-text011 {
+  font-size: 18px;
+}
+.book-club-text012 {
+  font-size: 18px;
+}
+.book-club-container08 {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.book-club-text014 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-container09 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.book-club-image03 {
+  width: var(--dl-size-size-large);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.book-club-text018 {
+  font-size: 18px;
+}
+.book-club-text019 {
+  font-size: 18px;
+}
+.book-club-text020 {
+  font-size: 18px;
+}
+.book-club-text021 {
+  font-size: 18px;
+}
+.book-club-text022 {
+  font-size: 18px;
+}
+.book-club-text023 {
+  font-size: 18px;
+}
+.book-club-container10 {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.book-club-text025 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-container11 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.book-club-image04 {
+  width: var(--dl-size-size-large);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.book-club-text029 {
+  font-size: 18px;
+}
+.book-club-text030 {
+  font-size: 18px;
+}
+.book-club-text031 {
+  font-size: 18px;
+}
+.book-club-text032 {
+  font-size: 18px;
+}
+.book-club-text033 {
+  font-size: 18px;
+}
+.book-club-text034 {
+  font-size: 18px;
+}
+.book-club-container12 {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.book-club-text036 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-container13 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.book-club-image05 {
+  width: var(--dl-size-size-large);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.book-club-text040 {
+  font-size: 18px;
+}
+.book-club-text041 {
+  font-size: 18px;
+}
+.book-club-text042 {
+  font-size: 18px;
+}
+.book-club-text043 {
+  font-size: 18px;
+}
+.book-club-text044 {
+  font-size: 18px;
+}
+.book-club-text045 {
+  font-size: 18px;
+}
+.book-club-container14 {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.book-club-text047 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-container15 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.book-club-image06 {
+  width: var(--dl-size-size-large);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.book-club-text051 {
+  font-size: 18px;
+}
+.book-club-text052 {
+  font-size: 18px;
+}
+.book-club-text053 {
+  font-size: 18px;
+}
+.book-club-text054 {
+  font-size: 18px;
+}
+.book-club-text055 {
+  font-size: 18px;
+}
+.book-club-text056 {
+  font-size: 18px;
+}
+.book-club-container16 {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.book-club-text058 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-container17 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.book-club-image07 {
+  width: var(--dl-size-size-large);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.book-club-text062 {
+  font-size: 18px;
+}
+.book-club-text063 {
+  font-size: 18px;
+}
+.book-club-text064 {
+  font-size: 18px;
+}
+.book-club-text065 {
+  font-size: 18px;
+}
+.book-club-text066 {
+  font-size: 18px;
+}
+.book-club-text067 {
+  font-size: 18px;
+}
+.book-club-container18 {
+  width: 100%;
+  height: 211px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.book-club-text069 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-container19 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.book-club-image08 {
+  width: var(--dl-size-size-large);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.book-club-text073 {
+  font-size: 18px;
+}
+.book-club-text074 {
+  font-size: 18px;
+}
+.book-club-text075 {
+  font-size: 18px;
+}
+.book-club-text076 {
+  font-size: 18px;
+}
+.book-club-text077 {
+  font-size: 18px;
+}
+.book-club-text078 {
+  font-size: 18px;
+}
+.book-club-container20 {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.book-club-text080 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-container21 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.book-club-image09 {
+  width: var(--dl-size-size-large);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.book-club-text084 {
+  font-size: 18px;
+}
+.book-club-text085 {
+  font-size: 18px;
+}
+.book-club-text086 {
+  font-size: 18px;
+}
+.book-club-text087 {
+  font-size: 18px;
+}
+.book-club-text088 {
+  font-size: 18px;
+}
+.book-club-text089 {
+  font-size: 18px;
+}
+.book-club-container22 {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.book-club-text091 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-container23 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.book-club-image10 {
+  width: var(--dl-size-size-large);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.book-club-text095 {
+  font-size: 18px;
+}
+.book-club-text096 {
+  font-size: 18px;
+}
+.book-club-text097 {
+  font-size: 18px;
+}
+.book-club-text098 {
+  font-size: 18px;
+}
+.book-club-text099 {
+  font-size: 18px;
+}
+.book-club-text100 {
+  font-size: 18px;
+}
+.book-club-container24 {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.book-club-text102 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-container25 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.book-club-image11 {
+  width: var(--dl-size-size-large);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.book-club-text106 {
+  font-size: 18px;
+}
+.book-club-text107 {
+  font-size: 18px;
+}
+.book-club-text108 {
+  font-size: 18px;
+}
+.book-club-text109 {
+  font-size: 18px;
+}
+.book-club-text110 {
+  font-size: 18px;
+}
+.book-club-text111 {
+  font-size: 18px;
+}
+.book-club-container26 {
+  width: 100%;
+  height: 302px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.book-club-text113 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-container27 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.book-club-image12 {
+  width: var(--dl-size-size-large);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.book-club-text117 {
+  font-size: 18px;
+}
+.book-club-text118 {
+  font-size: 18px;
+}
+.book-club-text119 {
+  font-size: 18px;
+}
+.book-club-text120 {
+  font-size: 18px;
+}
+.book-club-text121 {
+  font-size: 18px;
+}
+.book-club-text122 {
+  font-size: 18px;
+}
+.book-club-container28 {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.book-club-text124 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-container29 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.book-club-image13 {
+  width: var(--dl-size-size-large);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.book-club-text128 {
+  font-size: 18px;
+}
+.book-club-text129 {
+  font-size: 18px;
+}
+.book-club-text130 {
+  font-size: 18px;
+}
+.book-club-text131 {
+  font-size: 18px;
+}
+.book-club-text132 {
+  font-size: 18px;
+}
+.book-club-text133 {
+  font-size: 18px;
+}
+.book-club-text135 {
+  color: var(--dl-color-danger-500);
+  font-size: 25px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+}
+.book-club-container30 {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.book-club-text136 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-container31 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.book-club-image14 {
+  width: var(--dl-size-size-large);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.book-club-text141 {
+  font-size: 18px;
+}
+.book-club-text142 {
+  font-size: 18px;
+}
+.book-club-text143 {
+  font-size: 18px;
+}
+.book-club-text144 {
+  font-size: 18px;
+}
+.book-club-text145 {
+  font-size: 18px;
+}
+.book-club-text146 {
+  font-size: 18px;
+}
+.book-club-container32 {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.book-club-text148 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-container33 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.book-club-image15 {
+  width: var(--dl-size-size-large);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.book-club-text153 {
+  font-size: 18px;
+}
+.book-club-text154 {
+  font-size: 18px;
+}
+.book-club-text155 {
+  font-size: 18px;
+}
+.book-club-text156 {
+  font-size: 18px;
+}
+.book-club-text157 {
+  font-size: 18px;
+}
+.book-club-text158 {
+  font-size: 18px;
+}
+.book-club-container34 {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.book-club-text160 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-container35 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.book-club-image16 {
+  width: var(--dl-size-size-large);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.book-club-text165 {
+  font-size: 18px;
+}
+.book-club-text166 {
+  font-size: 18px;
+}
+.book-club-text167 {
+  font-size: 18px;
+}
+.book-club-text168 {
+  font-size: 18px;
+}
+.book-club-text169 {
+  font-size: 18px;
+}
+.book-club-text170 {
+  font-size: 18px;
+}
+.book-club-container36 {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.book-club-text172 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-container37 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.book-club-image17 {
+  width: var(--dl-size-size-large);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.book-club-text177 {
+  font-size: 18px;
+}
+.book-club-text178 {
+  font-size: 18px;
+}
+.book-club-text179 {
+  font-size: 18px;
+}
+.book-club-text180 {
+  font-size: 18px;
+}
+.book-club-text181 {
+  font-size: 18px;
+}
+.book-club-text182 {
+  font-size: 18px;
+}
+.book-club-container38 {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.book-club-text184 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-container39 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.book-club-image18 {
+  width: var(--dl-size-size-large);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.book-club-text189 {
+  font-size: 18px;
+}
+.book-club-text190 {
+  font-size: 18px;
+}
+.book-club-text191 {
+  font-size: 18px;
+}
+.book-club-text192 {
+  font-size: 18px;
+}
+.book-club-text193 {
+  font-size: 18px;
+}
+.book-club-text194 {
+  font-size: 18px;
+}
+@media(max-width: 991px) {
+  .book-club-icon {
+    display: flex;
+  }
+}
+@media(max-width: 767px) {
+  .book-club-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .book-club-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .book-club-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .book-club-mobile-menu {
+    padding: 16px;
+  }
+}
