@@ -400,6 +400,21 @@
   margin-right: var(--dl-space-space-threeunits);
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
+.book-club-text046 {
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.book-club-text047 {
+  font-size: 18px;
+}
+.book-club-text048 {
+  font-size: 18px;
+}
+.book-club-text049 {
+  font-size: 18px;
+}
+.book-club-text050 {
+  font-size: 18px;
+}
 .book-club-container14 {
   width: 100%;
   height: 275px;
@@ -410,7 +425,7 @@
   margin-right: 0px;
   flex-direction: column;
 }
-.book-club-text046 {
+.book-club-text052 {
   font-size: 20px;
   margin-left: var(--dl-space-space-fiveunits);
   margin-right: var(--dl-space-space-fiveunits);
@@ -439,7 +454,7 @@
   margin-right: 0px;
   flex-direction: column;
 }
-.book-club-text049 {
+.book-club-text055 {
   font-size: 20px;
   margin-left: var(--dl-space-space-fiveunits);
   margin-right: var(--dl-space-space-fiveunits);
@@ -468,7 +483,7 @@
   margin-right: 0px;
   flex-direction: column;
 }
-.book-club-text052 {
+.book-club-text058 {
   font-size: 20px;
   margin-left: var(--dl-space-space-fiveunits);
   margin-right: var(--dl-space-space-fiveunits);
@@ -497,7 +512,7 @@
   margin-right: 0px;
   flex-direction: column;
 }
-.book-club-text055 {
+.book-club-text061 {
   font-size: 20px;
   margin-left: var(--dl-space-space-fiveunits);
   margin-right: var(--dl-space-space-fiveunits);
@@ -526,7 +541,7 @@
   margin-right: 0px;
   flex-direction: column;
 }
-.book-club-text058 {
+.book-club-text064 {
   font-size: 20px;
   margin-left: var(--dl-space-space-fiveunits);
   margin-right: var(--dl-space-space-fiveunits);
@@ -555,7 +570,7 @@
   margin-right: 0px;
   flex-direction: column;
 }
-.book-club-text061 {
+.book-club-text067 {
   font-size: 20px;
   margin-left: var(--dl-space-space-fiveunits);
   margin-right: var(--dl-space-space-fiveunits);
@@ -584,7 +599,7 @@
   margin-right: 0px;
   flex-direction: column;
 }
-.book-club-text064 {
+.book-club-text070 {
   font-size: 20px;
   margin-left: var(--dl-space-space-fiveunits);
   margin-right: var(--dl-space-space-fiveunits);
@@ -603,7 +618,7 @@
   margin-right: var(--dl-space-space-threeunits);
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.book-club-text067 {
+.book-club-text073 {
   color: var(--dl-color-danger-500);
   font-size: 25px;
   align-self: center;
@@ -622,7 +637,7 @@
   margin-right: 0px;
   flex-direction: column;
 }
-.book-club-text070 {
+.book-club-text076 {
   font-size: 20px;
   margin-top: var(--dl-space-space-twounits);
   margin-left: var(--dl-space-space-fiveunits);
@@ -642,22 +657,22 @@
   margin-right: var(--dl-space-space-threeunits);
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.book-club-text074 {
+.book-club-text080 {
   margin-right: var(--dl-space-space-fiveunits);
 }
-.book-club-text075 {
+.book-club-text081 {
   font-size: 18px;
 }
-.book-club-text076 {
+.book-club-text082 {
   font-size: 18px;
 }
-.book-club-text077 {
+.book-club-text083 {
   font-size: 18px;
 }
-.book-club-text078 {
+.book-club-text084 {
   font-size: 18px;
 }
-.book-club-text079 {
+.book-club-text085 {
   font-size: 18px;
 }
 .book-club-container30 {
@@ -670,7 +685,7 @@
   margin-right: 0px;
   flex-direction: column;
 }
-.book-club-text083 {
+.book-club-text089 {
   font-size: 20px;
   margin-left: var(--dl-space-space-fiveunits);
   margin-right: var(--dl-space-space-fiveunits);
@@ -689,19 +704,19 @@
   margin-right: var(--dl-space-space-threeunits);
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.book-club-text087 {
+.book-club-text093 {
   margin-right: var(--dl-space-space-fiveunits);
 }
-.book-club-text088 {
+.book-club-text094 {
   font-size: 18px;
 }
-.book-club-text089 {
+.book-club-text095 {
   font-size: 18px;
 }
-.book-club-text090 {
+.book-club-text096 {
   font-size: 18px;
 }
-.book-club-text091 {
+.book-club-text097 {
   font-size: 18px;
 }
 .book-club-container32 {
@@ -714,7 +729,7 @@
   margin-right: 0px;
   flex-direction: column;
 }
-.book-club-text093 {
+.book-club-text099 {
   font-size: 20px;
   margin-left: var(--dl-space-space-fiveunits);
   margin-right: var(--dl-space-space-fiveunits);
@@ -733,22 +748,22 @@
   margin-right: var(--dl-space-space-threeunits);
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.book-club-text097 {
+.book-club-text103 {
   margin-right: var(--dl-space-space-fiveunits);
 }
-.book-club-text098 {
+.book-club-text104 {
   font-size: 18px;
 }
-.book-club-text099 {
+.book-club-text105 {
   font-size: 18px;
 }
-.book-club-text100 {
+.book-club-text106 {
   font-size: 18px;
 }
-.book-club-text101 {
+.book-club-text107 {
   font-size: 18px;
 }
-.book-club-text102 {
+.book-club-text108 {
   font-size: 18px;
 }
 .book-club-container34 {
@@ -761,7 +776,7 @@
   margin-right: 0px;
   flex-direction: column;
 }
-.book-club-text104 {
+.book-club-text110 {
   font-size: 20px;
   margin-left: var(--dl-space-space-fiveunits);
   margin-right: var(--dl-space-space-fiveunits);
@@ -780,22 +795,22 @@
   margin-right: var(--dl-space-space-threeunits);
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.book-club-text108 {
+.book-club-text114 {
   margin-right: var(--dl-space-space-fiveunits);
 }
-.book-club-text109 {
+.book-club-text115 {
   font-size: 18px;
 }
-.book-club-text110 {
+.book-club-text116 {
   font-size: 18px;
 }
-.book-club-text111 {
+.book-club-text117 {
   font-size: 18px;
 }
-.book-club-text112 {
+.book-club-text118 {
   font-size: 18px;
 }
-.book-club-text113 {
+.book-club-text119 {
   font-size: 18px;
 }
 .book-club-container36 {
@@ -808,7 +823,7 @@
   margin-right: 0px;
   flex-direction: column;
 }
-.book-club-text116 {
+.book-club-text122 {
   font-size: 20px;
   margin-left: var(--dl-space-space-fiveunits);
   margin-right: var(--dl-space-space-fiveunits);
@@ -827,22 +842,22 @@
   margin-right: var(--dl-space-space-threeunits);
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.book-club-text120 {
+.book-club-text126 {
   margin-right: var(--dl-space-space-fiveunits);
 }
-.book-club-text121 {
+.book-club-text127 {
   font-size: 18px;
 }
-.book-club-text122 {
+.book-club-text128 {
   font-size: 18px;
 }
-.book-club-text123 {
+.book-club-text129 {
   font-size: 18px;
 }
-.book-club-text124 {
+.book-club-text130 {
   font-size: 18px;
 }
-.book-club-text125 {
+.book-club-text131 {
   font-size: 18px;
 }
 @media(max-width: 991px) {
